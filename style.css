@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: hsl(47, 88%, 63%);
+  font-family: "Figtree", sans-serif;
+  font-size: 16px;
+  position: relative;
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 340px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid black;
+  box-shadow: 3px 3px 1px 1px #000000;
+}
+
+.card img {
+  border-radius: 10px;
+}
+
+.category {
+  font-size: 18px;
+  padding: 5px;
+  background-color: hsl(47, 88%, 63%);
+  width: 130px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.main-heading {
+  font-size: 24px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.main-heading:hover {
+    color: hsl(47, 88%, 63%);
+}
+
+.card-text {
+  color: hsl(0, 0%, 50%);
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  font-size: 10px;
+  margin-top: 20px;
+}
+
+.contact-container img {
+  width: 30px;
+}
+
+@media (max-width: 375px) {
+    .card {
+        max-width: 240px;
+    }
+}
