@@ -53,6 +53,10 @@ body {
   color: hsl(47, 88%, 63%);
 }
 
+.date {
+  font-size: 14px;
+}
+
 .card-text {
   color: hsl(0, 0%, 50%);
   font-size: 14px;
