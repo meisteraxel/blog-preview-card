@@ -7,19 +7,19 @@
 }
 
 body {
+  min-height: 100vh;
   height: 100vh;
   background-color: hsl(47, 88%, 63%);
   font-family: "Figtree", sans-serif;
   font-size: 16px;
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .card {
   background-color: hsl(0, 0%, 100%);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   max-width: 340px;
   display: flex;
   flex-direction: column;
@@ -35,11 +35,11 @@ body {
 
 .category {
   font-size: 18px;
-  padding: 5px;
+  padding: 5px 2px;
   background-color: hsl(47, 88%, 63%);
-  width: 130px;
+  width: 110px;
   text-align: center;
-  border-radius: 10px;
+  border-radius: 5px;
   margin: 20px 0;
 }
 
@@ -55,6 +55,7 @@ body {
 
 .date {
   font-size: 14px;
+  font-weight: 400;
 }
 
 .card-text {
@@ -73,6 +74,11 @@ body {
 
 .contact-container img {
   width: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: hsl(0, 0%, 7%);
 }
 
 @media (max-width: 375px) {
