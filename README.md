@@ -6,15 +6,11 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
+
 
 ## Overview
 
@@ -27,7 +23,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://meisteraxel.github.io/blog-preview-card/)
+- [Solution URL](https://github.com/meisteraxel/blog-preview-card)
+- [Live Site URL](https://meisteraxel.github.io/blog-preview-card/)
 
 ### Built with
 
